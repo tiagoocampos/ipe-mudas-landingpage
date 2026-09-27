@@ -58,16 +58,12 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2 sm:px-6">
         <a href="#inicio" className="flex items-center gap-2">
           <Image
-            src="/logo2.png"
+            src="/logo.png"
             alt="Ipê Mudas"
             width={160}
             height={93}
             priority
             className="h-12 w-auto sm:h-14"
-            style={{
-              filter:
-                "drop-shadow(0 0 2px rgba(0,0,0,0.15)) drop-shadow(0 0 5px rgba(0,0,0,0.15)) drop-shadow(0 0 9px rgba(0,0,0,0.2))",
-            }}
           />
         </a>
 
